@@ -6,7 +6,7 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 board = [ " ", " ", " ", " ", " ", " ", " ", " ", " " ]
 
-token = gets.strip
-postion(board, token)
+input = gets.strip
+move(board, index, input)
 
 display_board(board)
