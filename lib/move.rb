@@ -7,6 +7,6 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-board = [ " ", " ", " ", " ", " ", " ", " ", " ", " " ]
-
-puts = " '9'.to_i '8'.to_i
+def postion(token)
+  puts "#{token}"
+end

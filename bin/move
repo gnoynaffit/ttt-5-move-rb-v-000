@@ -9,4 +9,3 @@ $stdin
 
 token = gets.strip
 postion(token)
-
