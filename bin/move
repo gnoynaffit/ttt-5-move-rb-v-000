@@ -4,7 +4,7 @@ puts "Where would you like to go?"
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-
+board [ " ", " ", " ", " ", " ", " ", " ", " ", " " ]
 
 token = gets.strip
 postion(token)
