@@ -8,3 +8,5 @@ board = [ " ", " ", " ", " ", " ", " ", " ", " ", " " ]
 
 token = gets.strip
 postion(token)
+
+display_board(board)
