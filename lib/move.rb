@@ -8,5 +8,5 @@ end
 
 # code your input_to_index and move method here!
 def postion(token)
-  puts "#{.to_i}"
+  puts "#{'0 - 8'.to_i}"
   end
