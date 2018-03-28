@@ -8,6 +8,6 @@ board = [ " ", " ", " ", " ", " ", " ", " ", " ", " " ]
 
 input = gets.strip
 token = gets.strip
-move(board, input, token )
+move(board, input, token)
 
 display_board(board)
