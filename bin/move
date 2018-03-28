@@ -7,6 +7,7 @@ require_relative '../lib/move.rb'
 board = [ " ", " ", " ", " ", " ", " ", " ", " ", " " ]
 
 input = gets.strip
+input_to_index(input)
 #move(board, input, "X")
 
 #display_board(board)
