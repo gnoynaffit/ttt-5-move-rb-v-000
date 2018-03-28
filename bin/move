@@ -7,7 +7,6 @@ require_relative '../lib/move.rb'
 board = [ " ", " ", " ", " ", " ", " ", " ", " ", " " ]
 
 input = gets.strip
-token = gets.strip
 move(board, input, token)
 
 display_board(board)
