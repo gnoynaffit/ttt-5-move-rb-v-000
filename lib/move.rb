@@ -8,5 +8,6 @@ end
 
 # code your input_to_index and move method here!
 def postion(board,token)
-  board [token.to_i] = "X"
+  board [token.to_i - 1] = "X"
+
   end
