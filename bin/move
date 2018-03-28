@@ -7,6 +7,6 @@ require_relative '../lib/move.rb'
 board = [ " ", " ", " ", " ", " ", " ", " ", " ", " " ]
 
 token = gets.strip
-postion(token)
+postion(board, token)
 
 display_board(board)
