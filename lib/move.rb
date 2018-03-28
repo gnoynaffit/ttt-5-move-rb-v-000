@@ -9,4 +9,4 @@ end
 # code your input_to_index and move method here!
 board = [ " ", " ", " ", " ", " ", " ", " ", " ", " " ]
 
-board['1 - 9'.to_i] = '0 - 8'.to_i
+puts = " '9'.to_i '8'.to_i
