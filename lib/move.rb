@@ -7,7 +7,11 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+def input_to_index(index)
+  index.to_i
+end
+
 def postion(board,token)
-  board [token.to_i - 1] = "X"
+  board [input_to_index(token)] = "X"
 
   end
